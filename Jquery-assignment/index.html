@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"> </script>
+</head>
+<body id="myBg">
+<div class="container">
+    <button id='myButton' onclick="change()">Click me for change</button>
+    <button  onclick="bgImage()">Change BG</button>
+<hr>
+<section>
+    <table id="mytable" >
+        <tr>
+         <th>Firstname</th>
+         <th>Lastname</th>
+         </tr>
+         <tr id="r1">
+         <td>Danish</td>
+         <td>Nazir</td>
+         </tr>
+         <tr id="r2">
+          <td>Umar</td>
+          <td>Sofi</td>
+          </tr>
+          </table>
+          <p> <input id="button1" type="button" value="Click to remove 2nd Row." /></p>
+</section>
+<hr>
+<section style="background-color:cornsilk;">
+        <p>Name: <input type="text"  id="setname" name="user"></p>
+        <p> <input id="setvalue" type="button" value="set value." /></p>
+</section>
+<hr>
+<section style="background-color:cornsilk;">
+      <span id="spanid"> Exercises</span>
+      <button class="button1">Change</button>
+</section>
+<hr>
+<section style="background-color:cornsilk;">
+    <p class="test" id="myClass">Click me to see my class</p>
+</section>
+
+<hr>
+
+<section style="background-color:cornsilk;">
+        <input type="text" disabled="disabled" class="inputDisabled" value="">
+        <button id="edit">Enable </button>
+</section>
+
+<hr>
+<section style="background-color:cornsilk;">
+        <input type="text" name="url" /> 
+        <button id="btn">Set href</button>
+        <button> 
+            <a id="click" href="#" 
+            target="_blank"> 
+                Click to go this address
+            </a> 
+        </button> 
+</section>
+
+</div>
+</body>
+</html>
